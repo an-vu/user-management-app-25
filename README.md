@@ -4,7 +4,7 @@ A basic Java EE web application for user registration, login, password managemen
 
 ---
 
-# Features
+## Features
 
 - New user registration
 - Login/logout with session tracking
