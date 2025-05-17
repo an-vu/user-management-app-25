@@ -2,21 +2,23 @@
 
 ---
 
-## DATABASE SETUP
+## Database Setup
 
 - Used Derby Java DB (Network mode)
 - Connected to `jdbc:derby://localhost:1527/sample` with user `app`
 - Table created:
 
-CREATE TABLE USERS (
-  ID INT PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
-  USERNAME VARCHAR(255) UNIQUE NOT NULL,
-  PASSWORD VARCHAR(255) NOT NULL
-);
+    ```SQL
+    CREATE TABLE USERS (
+    ID INT PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
+    USERNAME VARCHAR(255) UNIQUE NOT NULL,
+    PASSWORD VARCHAR(255) NOT NULL
+    );
+    ```
 
 ---
 
-## FUNCTIONALITY
+## Functionality
 
 Pages implemented:
 - index.xhtml – Home with login/register links
@@ -33,7 +35,7 @@ Backend:
 
 ---
 
-## TECH USED
+## Tech Used
 
 - JSF + Jakarta EE 10
 - XHTML (Facelets)
@@ -48,7 +50,7 @@ Frontend:
 
 ---
 
-## DEPLOYMENT
+## Deployment
 
 - Exported `.war` via Clean and Build
 - App tested on Safari via NetBeans + GlassFish
