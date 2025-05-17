@@ -1,8 +1,8 @@
-An Vu's User Management App 2025
+# An Vu's User Management App 2025
 
 ---
 
-✅ DATABASE SETUP
+## DATABASE SETUP
 
 - Used Derby Java DB (Network mode)
 - Connected to `jdbc:derby://localhost:1527/sample` with user `app`
@@ -16,7 +16,7 @@ CREATE TABLE USERS (
 
 ---
 
-✅ FUNCTIONALITY
+## FUNCTIONALITY
 
 Pages implemented:
 - index.xhtml – Home with login/register links
@@ -33,14 +33,14 @@ Backend:
 
 ---
 
-✅ TECH USED
+## TECH USED
 
 - JSF + Jakarta EE 10
 - XHTML (Facelets)
 - CDI (@Named + @SessionScoped/@RequestScoped)
 - JDBC with Derby (no connection pool needed)
 - GlassFish 7
-- NetBeans 12.6
+- Apache NetBeans IDE 25
 
 Frontend:
 - Custom `style.css` with gradient background and Apple-style fonts
@@ -48,13 +48,7 @@ Frontend:
 
 ---
 
-✅ DEPLOYMENT
+## DEPLOYMENT
 
 - Exported `.war` via Clean and Build
-- App tested on Chrome via NetBeans + GlassFish
-
----
-
-✅ DEMO VIDEO
-
-- Recording shows registration, login, access to protected page, password change, and logout.
+- App tested on Safari via NetBeans + GlassFish
