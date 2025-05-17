@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+<f:view>
+    <h:head>
+        <title>Logout</title>
+        <h:outputStylesheet library="css" name="style.css" />
+    </h:head>
+    <h:body>
+        <f:event type="preRenderView" listener="#{loginBean.logout}" />
+        <h:outputText value="You have been logged out. Redirecting to home..." />
+        <br/>
+        <h:link value="Click here if not redirected" outcome="index.xhtml" />
+    </h:body>
+</f:view>
+</html>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="jakarta.faces.core">
+<h:head>
+    <h1>Show &amp; Tell</h1>
+    <h:outputStylesheet library="css" name="style.css" />
+</h:head>
+<h:body>
+
+    <!-- Session check -->
+    <f:view>
+        <h:panelGroup rendered="#{not empty loginBean.username}">
+            <h1>Welcome, #{loginBean.username}</h1>
+            <p>This is the Show &amp; Tell page.</p>
+
+            <h:link value="Change Password" outcome="changepassword.xhtml" />
+            <br/>
+            <h:link value="Logout" outcome="logout.xhtml" />
+        </h:panelGroup>
+
+        <h:panelGroup rendered="#{empty loginBean.username}">
+            <h:outputText value="You must log in to access this page." />
+            <br/>
+            <h:link value="Go to Login" outcome="login.xhtml" />
+        </h:panelGroup>
+    </f:view>
+
+</h:body>
+</html>

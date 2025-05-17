@@ -1,0 +1,15 @@
+com/myapp/jsf/UsersController$1.class
+com/myapp/session/exceptions/IllegalOrphanException.class
+com/myapp/session/exceptions/PreexistingEntityException.class
+com/myapp/session/UsersJpaController.class
+com/csci3830/anvu/webapp/project/Users.class
+com/myapp/session/exceptions/RollbackFailureException.class
+com/myapp/jsf/UsersController.class
+com/myapp/session/exceptions/NonexistentEntityException.class
+com/myapp/jsf/UsersController$UsersControllerConverter.class
+com/myapp/jsf/util/PaginationHelper.class
+com/myapp/jsf/RegisterBean.class
+com/csci3830/anvu/webapp/project/JakartaRestConfiguration.class
+com/myapp/jsf/LoginBean.class
+com/csci3830/anvu/webapp/project/resources/JakartaEE10Resource.class
+com/myapp/jsf/util/JsfUtil.class
