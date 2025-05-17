@@ -21,12 +21,12 @@
 ## Functionality
 
 Pages implemented:
-- index.xhtml – Home with login/register links
-- register.xhtml – New user registration form
-- login.xhtml – Login form
-- show.xhtml – Protected page shown after login
-- changepassword.xhtml – Password update form
-- logout.xhtml – Logs out and redirects
+- `index.xhtml` – Home with login/register links
+- `register.xhtml` – New user registration form
+- `login.xhtml` – Login form
+- `show.xhtml` – Protected page shown after login
+- `changepassword.xhtml` – Password update form
+- `logout.xhtml` – Logs out and redirects
 
 Backend:
 - `RegisterBean` handles user registration using JDBC
