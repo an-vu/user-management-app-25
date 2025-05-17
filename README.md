@@ -1,5 +1,17 @@
 # An Vu's User Management App 2025
 
+A basic Java EE web application for user registration, login, password management, and session-based access control.
+
+---
+
+# Features
+
+- New user registration
+- Login/logout with session tracking
+- Change password (requires login)
+- Protected “Show & Tell” page visible only after login
+- Clean UI with gradient background and simple JS validation
+
 ---
 
 ## Database Setup
