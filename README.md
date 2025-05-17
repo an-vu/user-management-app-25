@@ -54,3 +54,23 @@ Frontend:
 
 - Exported `.war` via Clean and Build
 - App tested on Safari via NetBeans + GlassFish
+
+---
+
+## How to View Registered Users
+
+To see the list of registered usernames and passwords in the database:
+
+1. Go to **Services > Databases** in NetBeans
+2. Connect to:  
+   `jdbc:derby://localhost:1527/sample` (user: `app`, password: `app`)
+3. Right-click the connection → **Execute Command**
+4. Run this SQL:
+
+    ```sql
+    SELECT * FROM USERS;
+    ```
+
+This will show all registered users in the USERS table.
+
+---
